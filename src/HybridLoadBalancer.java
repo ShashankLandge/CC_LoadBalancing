@@ -286,7 +286,7 @@ class ACOLoadBalancer {
     private static final double ALPHA = 1.0;
     private static final double BETA = 2.0;
     private static final double RHO = 0.5;
-    private static final int ANT_COUNT = 10;
+    private static final int ANT_COUNT = 100;
     private static final int MAX_ITERATIONS = 10;
     
     private final List<VirtualMachine> virtualMachines;
